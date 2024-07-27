@@ -27,7 +27,7 @@
     transform:rotateY(-180deg);
 }
 
-.box cover .front,
+.box .cover .front,
 .box .cover .back {
     position: absolute;
     top: 0;
@@ -91,7 +91,7 @@
 }
 .form-content .login-form,
 .form-content .signup-form{
-    width: calc(100%2 -25px);
+    width: calc(100%/2 -25px);
 }
 .textStyle{
     color: #c24dd0;
